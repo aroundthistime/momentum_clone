@@ -1,6 +1,6 @@
 body .js-weather{
     display : flex;
-    position: fixed;
+    position: absolute;
     right : 5px;
     top : 5px;
     padding-right : 10px;
