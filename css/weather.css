@@ -1,0 +1,25 @@
+body .js-weather{
+    display : flex;
+    position: fixed;
+    right : 5px;
+    top : 5px;
+    padding-right : 10px;
+    align-items : center;
+    flex-direction : column;
+}
+
+.weather__banner{
+    display : none;
+}
+.weather__temperature{
+    display : none;
+}
+.weather__error{
+    display : none;
+}
+
+.js-weather .weather__banner{
+    display : flex;
+    align-items: center;
+    font-size : 23px;
+}
